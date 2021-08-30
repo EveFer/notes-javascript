@@ -1,0 +1,66 @@
+body {
+  font-family: $font-quick-sand;
+  color: $gray-600;
+  background-color: $gray-100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $font-poppins;
+  font-style: normal;
+  font-weight: bold;
+  color: $gray-900;
+}
+
+// main title
+h1 {
+  font-size: 32px;
+  @include responsive($large) {
+    font-size: 48px;
+  }
+}
+
+// Subtitles
+h2,
+h3 {
+  font-size: 28px;
+  margin-bottom: 1.5rem;
+  @include responsive($large) {
+    font-size: 40px;
+  }
+}
+
+h4,
+h5 {
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+  @include responsive($large) {
+    font-size: 28px;
+  }
+}
+
+// paragraphs
+p {
+  font-size: 14px;
+  @include responsive($large) {
+    font-size: 16px;
+  }
+}
+
+strong {
+  color: $gray-800;
+}
+
+a {
+  color: $pink-400;
+  &:hover {
+    color: $pink-500;
+  }
+}
+
+img {
+  border-radius: 12px;
+}
