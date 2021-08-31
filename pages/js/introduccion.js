@@ -2,8 +2,10 @@ import Image from 'next/image'
 import Layout from '../../components/Layout'
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import { monokai } from 'react-syntax-highlighter/dist/cjs/styles/hljs'
-import meme_1 from '../../public/memes/meme_1.jpeg'
-import meme_2 from '../../public/memes/meme_2.jpeg'
+import meme1 from '../../public/memes/meme_1.jpeg'
+import meme2 from '../../public/memes/meme_2.jpeg'
+import diagramJS from '../../public/js/what_is_js.jpeg'
+import diagramVariables from '../../public/js/variables_js.jpeg'
 
 export default function introduccion () {
   return (
@@ -118,7 +120,7 @@ export default function introduccion () {
             {/* Caracteristicas */}
             <hr />
             <h2>JavaScript</h2>
-            <section>
+            <section className='intro-basic'>
               <h4>Isomorfismo</h4>
               <p>
                 Hoy JavaScript, es el único lenguaje capaz de ejecutarse en las 3 capas de una aplicación:
@@ -138,16 +140,16 @@ export default function introduccion () {
               </ol>
             </section>
 
-            <section>
+            <section className='intro-basic'>
               <h4>JavaScript NO es JAVA</h4>
               <div className='d-flex flex-column align-items-center'>
-                <Image src={meme_1} width={700} />
+                <Image src={meme1} alt='Meme - JavaScript no es Java' />
                 <br />
-                <Image src={meme_2} width={700} />
+                <Image src={meme2} alt='Meme - JavaScript no es Java' />
               </div>
             </section>
 
-            <section>
+            <section className='intro-basic'>
               <h4>Características</h4>
               <p>🎯 Lenguaje de Alto Nivel.</p>
               <p>🎯 Interpretado.</p>
@@ -156,7 +158,7 @@ export default function introduccion () {
               <p>🎯 Multi paradigma (Estructurado, POO, Funcional).</p>
             </section>
 
-            <section>
+            <section className='intro-basic'>
               <h4>Escritura de código</h4>
 
               <p>
@@ -316,6 +318,26 @@ export default function introduccion () {
               <li>function () {}</li>
               <li>class {}</li>
             </ul>
+          </div>
+        </div>
+
+        <div className='row pb-5'>
+          <div className='col-12'>
+            {/* Caracteristicas */}
+            <h2>No te olvides ...</h2>
+            <div className='d-flex flex-column align-items-center'>
+              <img
+                className='introduction-more'
+                src='/js/what_is_js.jpeg'
+                alt='Meme - JavaScript no es Java'
+              />
+              <br />
+              <img
+                className='introduction-more'
+                src='/js/variables_js.jpeg'
+                alt='Meme - JavaScript no es Java'
+              />
+            </div>
           </div>
         </div>
       </section>
