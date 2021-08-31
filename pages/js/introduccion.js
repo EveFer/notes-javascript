@@ -128,13 +128,13 @@ export default function introduccion () {
               <ol>
                 <li>Frontend</li>
                 <li>Backend</li>
-                <li>Persistencia de Datos (con MongoDB, Couch DB, Firebase, etc).</li>
+                <li>Persistencia de Datos (con MongoDB, Firebase, etc).</li>
               </ol>
 
               <p>Además:</p>
               <ol>
                 <li>Hacer Videojuegos.</li>
-                <li>Controlar Hardware (drones, robots, electrodomésticos, wearables, etc).</li>
+                <li>Controlar Hardware (drones).</li>
                 <li>Aplicaciones Híbridas y Móviles.</li>
                 <li>Aplicaciones de Escritorio.</li>
               </ol>
@@ -301,7 +301,7 @@ export default function introduccion () {
           <div className='col-12'>
             {/* Caracteristicas */}
             <h2>Tipos de Datos</h2>
-            <p><strong>Primitivos</strong></p>
+            <p><strong>Primitivos</strong>: Accedemos directamente al valor</p>
             <ul>
               <li>string</li>
               <li>number</li>
@@ -311,7 +311,7 @@ export default function introduccion () {
               <li>NaN</li>
             </ul>
 
-            <p><strong>Compuestos</strong></p>
+            <p><strong>Compuestos</strong>: Accedemos a las referencia del valor</p>
             <ul>
               <li>objects = {}</li>
               <li>array = []</li>
