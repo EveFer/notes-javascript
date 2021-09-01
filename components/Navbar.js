@@ -1,7 +1,9 @@
+import { useRouter } from 'next/router'
 import Link from 'next/link'
 import Image from 'next/image'
 
 export default function Navbar () {
+  const router = useRouter()
   const arrayPhrases = [
     {
       phrase: 'Primero, resuelve el problema. Luego escribe el código.',
@@ -24,9 +26,19 @@ export default function Navbar () {
             <p className='d-none d-md-block ms-5'>Primero, resuelve el problema. Luego escribe el código - <small>John Johnson</small></p>
           </div>
           <div className='d-flex justify-content-between align-items-center'>
-            <Link href='/js/ejercicios' passHref>
-              <button>Ejercicios</button>
-            </Link>
+            {
+              router.pathname === '/js/ejercicios'
+                ? (
+                  <Link href='/js/introduccion' passHref>
+                    <button>Notas</button>
+                  </Link>
+                  )
+                : (
+                  <Link href='/js/ejercicios' passHref>
+                    <button>Ejercicios</button>
+                  </Link>
+                  )
+            }
           </div>
         </div>
       </div>
