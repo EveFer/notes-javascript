@@ -262,7 +262,7 @@ export default function introduccion () {
                     padding: '24px 16px'
                   }}
                 >
-                  const colors = [`&quot;`purple`&quot;`, `&quot;`orange`&quot;`, `&quot;`pink`&quot;`, `&quot;`red`&quot;`]
+                  const colors = [&quot;purple&quot;, &quot;orange&quot;, &quot;pink&quot;, &quot;red&quot;]
                 </SyntaxHighlighter>
 
                 <ul>
@@ -287,7 +287,7 @@ export default function introduccion () {
                     padding: '24px 16px'
                   }}
                 >
-                  const koder = new Koder(`&quot;`Fernanda`&quot;`, `&quot;`F`&quot;`)
+                  const koder = new Koder(&quot;Fernanda&quot;, &quot;F&quot;)
                 </SyntaxHighlighter>
               </div>
 
