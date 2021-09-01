@@ -4,8 +4,6 @@ import SyntaxHighlighter from 'react-syntax-highlighter'
 import { monokai } from 'react-syntax-highlighter/dist/cjs/styles/hljs'
 import meme1 from '../../public/memes/meme_1.jpeg'
 import meme2 from '../../public/memes/meme_2.jpeg'
-import diagramJS from '../../public/js/what_is_js.jpeg'
-import diagramVariables from '../../public/js/variables_js.jpeg'
 
 export default function introduccion () {
   return (
@@ -24,8 +22,8 @@ export default function introduccion () {
             <h2>ECMAScript</h2>
             <ul>
               <li>ECMAScript es el nombre del estándar internacional que define JavaScript.</li>
-              <li>Definido por un comité técnico (<a rel='noopener noreferrer' target='_blank' href='https://tc39.es/' rel='noreferrer'>TC-39</a>) de ecma international</li>
-              <li>Identificado como  <a rel='noopener noreferrer' target='_blank' href='https://www.ecma-international.org/publications-and-standards/standards/ecma-262/' rel='noreferrer'>Ecma-262</a>  y ISO/IEC 16262.</li>
+              <li>Definido por un comité técnico (<a rel='noopener noreferrer' target='_blank' href='https://tc39.es/'>TC-39</a>) de ecma international</li>
+              <li>Identificado como  <a rel='noopener noreferrer' target='_blank' href='https://www.ecma-international.org/publications-and-standards/standards/ecma-262/'>Ecma-262</a>  y ISO/IEC 16262.</li>
               <li>No es parte de la <a rel='noopener noreferrer' target='_blank' href='https://www.w3.org/'>W3C</a>.</li>
             </ul>
             <table className='table table-striped'>
@@ -60,7 +58,7 @@ export default function introduccion () {
                 <tr>
                   <th scope='row'>5</th>
                   <td>2009</td>
-                  <td>Agrega el modo estricto strict mode, un subconjunto destinado a proporcionar una mejor comprobación de errores y evitar constructores propensos a errores. Aclara varias ambigüedades de la tercera edición, y afina el comportamiento de las implementaciones del "mundo real" que difieren consistentemente desde esa especificación. Agrega algunas nuevas características, como getters y setters, librería para el soporte de JSON, y una más completa reflexión sobre las propiedades de los objetos.</td>
+                  <td>Agrega el modo estricto strict mode, un subconjunto destinado a proporcionar una mejor comprobación de errores y evitar constructores propensos a errores. Aclara varias ambigüedades de la tercera edición, y afina el comportamiento de las implementaciones del `&quot;`mundo real`&quot;` que difieren consistentemente desde esa especificación. Agrega algunas nuevas características, como getters y setters, librería para el soporte de JSON, y una más completa reflexión sobre las propiedades de los objetos.</td>
                 </tr>
                 <tr>
                   <th scope='row'>5.1</th>
@@ -143,9 +141,9 @@ export default function introduccion () {
             <section className='intro-basic'>
               <h4>JavaScript NO es JAVA</h4>
               <div className='d-flex flex-column align-items-center'>
-                <Image src={meme1} alt='Meme - JavaScript no es Java' />
+                <Image src={meme1} alt='Meme - JavaScript no es Java' width={750} height={500} />
                 <br />
-                <Image src={meme2} alt='Meme - JavaScript no es Java' />
+                <Image src={meme2} alt='Meme - JavaScript no es Java' width={750} height={500} />
               </div>
             </section>
 
@@ -264,7 +262,7 @@ export default function introduccion () {
                     padding: '24px 16px'
                   }}
                 >
-                  const colors = ["purple", "orange", "pink", "red"]
+                  const colors = [`&quot;`purple`&quot;`, `&quot;`orange`&quot;`, `&quot;`pink`&quot;`, `&quot;`red`&quot;`]
                 </SyntaxHighlighter>
 
                 <ul>
@@ -289,7 +287,7 @@ export default function introduccion () {
                     padding: '24px 16px'
                   }}
                 >
-                  const koder = new Koder("Fernanda", "F")
+                  const koder = new Koder(`&quot;`Fernanda`&quot;`, `&quot;`F`&quot;`)
                 </SyntaxHighlighter>
               </div>
 
