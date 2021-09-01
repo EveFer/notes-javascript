@@ -16,15 +16,18 @@ export default function Navbar () {
   return (
     <nav className='navbar'>
       <div className='container'>
-
-        <Link href='/' passHref>
-          <Image src='/logos/kodemia_white.png' height={56} width={56} alt='Logo Kodemia' />
-        </Link>
-        <div className='d-flex justify-content-between align-items-center w-90'>
-          <p>Primero, resuelve el problema. Luego escribe el código - <small>John Johnson</small></p>
-          <Link href='/js/ejercicios' passHref>
-            <button>Ejercicios</button>
-          </Link>
+        <div className='d-flex justify-content-between w-100'>
+          <div className='d-flex justify-content-between align-items-center'>
+            <Link href='/' passHref>
+              <Image src='/logos/kodemia_white.png' height={56} width={56} alt='Logo Kodemia' />
+            </Link>
+            <p className='d-none d-md-block ms-5'>Primero, resuelve el problema. Luego escribe el código - <small>John Johnson</small></p>
+          </div>
+          <div className='d-flex justify-content-between align-items-center'>
+            <Link href='/js/ejercicios' passHref>
+              <button>Ejercicios</button>
+            </Link>
+          </div>
         </div>
       </div>
     </nav>
