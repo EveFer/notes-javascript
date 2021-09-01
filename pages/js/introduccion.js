@@ -327,17 +327,31 @@ export default function introduccion () {
               <img
                 className='introduction-more'
                 src='/js/what_is_js.jpeg'
-                alt='Meme - JavaScript no es Java'
+                alt='¿Qué es JavaScript?'
               />
               <br />
               <img
                 className='introduction-more'
                 src='/js/variables_js.jpeg'
-                alt='Meme - JavaScript no es Java'
+                alt='Variables en JavaScript'
               />
             </div>
           </div>
         </div>
+
+        <hr />
+        <div className='row pb-5'>
+          <div className='col'>
+            <h2>Operadores en JavaScript</h2>
+            <hr />
+            <img
+              className='introduction-more'
+              src='/js/operators_js.jpeg'
+              alt='Operadores en JavaScript'
+            />
+          </div>
+        </div>
+
       </section>
     </Layout>
   )
