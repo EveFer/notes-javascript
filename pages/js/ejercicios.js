@@ -67,6 +67,14 @@ export default function ejercicips () {
                           🎯 si es menor 50 , imprimir &quot;F&quot;
                         </code>
                       </li>
+                      <li>
+                        <code>
+                          Pedir al usuario el dia de la semana * p.ej. lunes, martes, ... Imprimir en consola el número del dia de la semana equivalente es decir: <br />
+                            domingo -> 0, <br />
+                            lunes -> 1,<br />
+                            martes -> 2, etc...
+                        </code>
+                      </li>
                     </ol>
 
                   </div>
