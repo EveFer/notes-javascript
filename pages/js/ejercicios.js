@@ -70,9 +70,9 @@ export default function ejercicips () {
                       <li>
                         <code>
                           Pedir al usuario el dia de la semana * p.ej. lunes, martes, ... Imprimir en consola el número del dia de la semana equivalente es decir: <br />
-                            domingo -> 0, <br />
-                            lunes -> 1,<br />
-                            martes -> 2, etc...
+                          domingo -`&gt;` 0, <br />
+                          lunes -`&gt;` 1,<br />
+                          martes -`&gt;` 2, etc...
                         </code>
                       </li>
                     </ol>
@@ -88,7 +88,7 @@ export default function ejercicips () {
                 </h2>
                 <div id='collapseTwo' className='accordion-collapse collapse' aria-labelledby='headingTwo' data-bs-parent='#accordionExample'>
                   <div className='accordion-body'>
-                    <a href="https://gist.github.com/EveFer/508433e44650d5f14789fcbcbe271a2b" target="_blank" rel="noreferrer">Link a Ejercicios 🤓</a> 
+                    <a href='https://gist.github.com/EveFer/508433e44650d5f14789fcbcbe271a2b' target='_blank' rel='noreferrer'>Link a Ejercicios 🤓</a>
                   </div>
                 </div>
               </div>
